@@ -1,0 +1,9 @@
+name: asky
+run.name: riempimento database Asky
+on: [push]
+jobs:
+ test-output:
+ runs-on: ubuntu-latest
+ steps:
+ -name: Test Output
+    run: echo "Test"
